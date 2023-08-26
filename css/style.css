@@ -1,13 +1,3 @@
-/*   
-Project: Hello World Personal Page
-Project URI: http://timpotter.github.io
-Author: Tim Potter
-Author URI: http://littlethunder.co
-*/
-
-
-/* Reset Browser Defaults*/
-
 * {
   padding:0;
   margin: 0;
@@ -23,7 +13,7 @@ Author URI: http://littlethunder.co
 
 /* Typography */
 body {
-  font-family: 'Roboto Slab', serif;
+  font-family: 'Courier', 'Monaco', serif;
   font-weight: 300;
   color: #444;
    -webkit-font-smoothing: antialiased;
@@ -96,20 +86,21 @@ a:hover {
 }
 
 .social a:hover {
-  opacity: 0.8;
+  opacity: 1;
 }
 
 .social li {
   display: inline;
   margin: 5px;
-  color: #444;
+  color: #7c7979;
 }
 
 /* Images */
 
 .background {
-   /* Delete background class from <body> for a vanilla style */
-   background: url(../images/background.jpg) top center ;
+   background: url(https://picsum.photos/2000/1080) top center no-repeat;
+   background-size:cover;
+   background-color: #252525;
 }
 
 img.avatar {
@@ -191,4 +182,19 @@ footer {
     background: #333;
     background-color: white; /* Remove background color */
   }
+}
+
+.button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 10px;
+  display: none; /* Top-left and bottom-right corners rounded */
 }
