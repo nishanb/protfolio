@@ -121,7 +121,7 @@ img.avatar {
 .container {
   width: 600px;
   margin: 20px auto 25px;
-  background-color: rgba(255, 255, 255, 0.9);
+  background-color: rgb(216 206 205 / 95%);
   padding: 0 60px 30px;
   border-radius: 6px;
 }
@@ -181,6 +181,14 @@ footer {
     padding: 0; /* Remove padding */
     background: #333;
     background-color: white; /* Remove background color */
+  }
+  
+  body{
+    background-color: white;
+  }
+
+  .container{
+    background-color: white;
   }
 }
 
