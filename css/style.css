@@ -206,3 +206,23 @@ footer {
   border-radius: 10px;
   display: none; /* Top-left and bottom-right corners rounded */
 }
+
+.image-container {
+    position: relative;
+    display: inline-block;
+ 
+  }
+
+  .hover-image {
+    display: none;
+    position: absolute;
+    top: -30px;
+    left: 0;
+    border-radius: 5px;
+    width: 150px;
+    height: 150px;
+  }
+
+  .image-container:hover .hover-image {
+    display: block;
+  }
