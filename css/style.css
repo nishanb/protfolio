@@ -121,9 +121,11 @@ img.avatar {
 .container {
   width: 600px;
   margin: 20px auto 25px;
-  background-color: rgb(216 206 205 / 95%);
+  background-color: rgba(255, 255, 255, 0.3); /* Adjust the alpha value for transparency */
+  backdrop-filter: blur(10px); /* Apply a blur to the background */
   padding: 0 60px 30px;
   border-radius: 6px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
 }
 
 .social {
@@ -150,6 +152,7 @@ footer {
     width: 100%;
     margin-top: 50px;
     padding: 0 30px 30px; 
+    box-shadow: none;
   }
 
   h1 {
